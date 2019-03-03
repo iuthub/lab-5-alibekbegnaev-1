@@ -24,18 +24,25 @@
 			
 			<dt>Section</dt>
 			<dd>
-				???
+				<select name="Section:">
+					<option>001</option>
+					<option>002</option>
+					<option>003</option>
+					<option>004</option>
+				</select>
 			</dd>
 			
 			<dt>Credit Card</dt>
 			<dd>
-				<input type="" name="credit"/>
+				<input type="text" name="credit"/>
+				<p><input type="radio" name="visa" value="visa"/>Visa
+				<input type="radio" name="mastercard" value="master" />Mastercard</p>
 			</dd>
 		</dl>
 		
 		<div>
-			<input type="submit" name="I am a giant sucker.">
+			<input type="submit" name="button" value="I am a giant sucker."/>
 		</div>
-		</form>
+
 	</body>
 </html>
